@@ -1,0 +1,50 @@
+{
+  "python": "3.12.14",
+  "pandas_unit_test_versions": [
+    "2.2.3",
+    "3.0.1"
+  ],
+  "unit_tests_each": 14,
+  "full_standard_run": {
+    "benchmark_completed": true,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "scenarios": [
+      "basis",
+      "stoermerkmale"
+    ],
+    "units_per_seed": 1200,
+    "rows_per_seed": 2400,
+    "epochs": 25,
+    "autoencoders_trained": 12,
+    "latent_dimensions": 3,
+    "rule_comparisons": 48,
+    "lof_comparisons": 54,
+    "null_control_rejected_everywhere": true,
+    "positive_latent_result_required_to_pass": false,
+    "geometry_used": false,
+    "real_dop_or_alkis_performance_measured": false,
+    "parameter_search_performed": false,
+    "source_code_unchanged": true,
+    "prior_runs_unchanged": true,
+    "interpretation": "synthetic_generator_ground_truth; no_automatic_general_superiority_claim"
+  },
+  "verification_checks": 295,
+  "cross_pandas_verification_checks": 295,
+  "negative_checks": [
+    {
+      "check": "invalid_units_rejected_before_output",
+      "passed": true
+    },
+    {
+      "check": "tampered_saved_labels_rejected",
+      "passed": true
+    }
+  ],
+  "native_windows_tested": false,
+  "python_311_syntax_checked": true,
+  "same_test_configuration_without_performance_tuning": true
+}

@@ -1,0 +1,22 @@
+{
+  "package": "analysepaket_10_bahn_attribute",
+  "files": {
+    "PROBELAUF.md": "0a6d0a0481d89ece064413938ef4e0f23fcaa9abfd9196f60e7c935e34b8c775",
+    "README.md": "ffb94937f718ce2a0468bb39ee4c7a85ae1b1be49f18527ec011430c295b20fe",
+    "attribute_prep.py": "439123c5abe0efb320a180fe055e68b40979efd868c98e2333ebb511ed38c009",
+    "start_bahnverkehr.py": "e6e9a61d978ac5344c9b351c2c7944ff20302d5d45e3ee782f1e2998a0875e6d",
+    "tests/test_attribute_prep.py": "63dea8bd872ea352915eb74b8fa36d940bd3e3419c172d20435c81cac3c53878",
+    "verification/cluster_reports.json": "ec934c710299d07c3ed3c8dd98fdae3149ff2d7a45f925295baa9309a3423926",
+    "verification/dependency_reports.json": "a465e0a5980e02136ad9f72be2cb020e2d90d1a4181f0e75d1dcd925b11b1664",
+    "verification/environment.json": "afc96899bc7e4b75566ac9bf57a32982311f6eff1c9a2b328bcdae6083b6f596",
+    "verification/feature_contract.json": "d0d6cf0ce9157f6ed16fa4b00933486a24ca0ead4b3d4b828df7b94810ca2b71",
+    "verification/preparation.json": "531662113bbb4f939cd66771613bb96f15a0f83d76d836ffc4ba61be653c744d",
+    "verification/probelauf.log": "22e37354e9282c45b15b14fdc4a4a4684e274044bc287cd33b5bc19505ef1167",
+    "verification/summary.json": "bb3f25e7fdcc09f8e12b8b7dae61145af96b8874cf4435c25a103925ed0103ad",
+    "verification/training_history.json": "18e1995c711d5007b0d3e62ba44ae95168d3e10035f4a7bebf559028e761229d",
+    "verification/unit_pandas2.log": "1cf88946bc52840e82a434314d94e26b7c0cbca505d663eae28ea014cf85fbcc",
+    "verification/unit_pandas3.log": "98b201ae0bee7c91016503f3d1be81b5a0dd3ae6b6724a5e12d86c9cea9e5fb1",
+    "verification/verification.json": "522021b5300a98a24f7c4b12183e46fa6568eddade2806c80ffa6c13515b6fb6",
+    "verify_bahn_run.py": "4c2540c1be248b93fd73270d5b7c43c7e5fb937cf7e054591175729df82f72c8"
+  }
+}

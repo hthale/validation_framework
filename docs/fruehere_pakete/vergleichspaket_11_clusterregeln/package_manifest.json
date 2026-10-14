@@ -1,0 +1,40 @@
+{
+  "package": "vergleichspaket_11_clusterregeln",
+  "version": "11.1",
+  "requires_existing_packages": [
+    "07/08 existing framework",
+    "analysepaket_10_bahn_attribute"
+  ],
+  "modifies_project_source": false,
+  "geometry_used": false,
+  "local_completed_run": "20260923_125453_590179",
+  "function_tests_passed_pandas2": 13,
+  "function_tests_passed_pandas3": 13,
+  "full_run_artifact_checks": 800,
+  "files_sha256": {
+    "PROBELAUF.md": "549f92d576e80bdc4fbdca308d43689a2aa1b1e38e765a13518f2115820f668f",
+    "PROTOKOLL.md": "8ba2983860368727ca8b5fa36f3fe3601308cb1dc6db4749995eefaccb667baf",
+    "README.md": "b0d7cd767ff99213784b1f8c56fba9f67e560a7e1e74d2eb6cce74e3208d9965",
+    "belege_lokaler_probelauf/PROTOKOLL.md": "8ba2983860368727ca8b5fa36f3fe3601308cb1dc6db4749995eefaccb667baf",
+    "belege_lokaler_probelauf/all_candidates.json": "fe5b6b1b42593fa4e7335a9ebe3920e2c7c325422c2319cb8687f5e5edf91ceb",
+    "belege_lokaler_probelauf/all_model_reports.json": "f85559ac4a4a38af38e68b8a6d0f4a5bec2acdaa39db3dfe62e967dbf62d18fb",
+    "belege_lokaler_probelauf/bericht.html": "ce5c4f8a5c5003c6dfe760e9989e6efa79336eec93cf56dac8ab1ef0eb49f28a",
+    "belege_lokaler_probelauf/lauf_herkunft.json": "6bd0fd294babbfece504c1b9fb800e74f5d985ac849f0edc2b1dbe2c9479044f",
+    "belege_lokaler_probelauf/laufprotokoll.txt": "841def8e9366cea9b0c593781c4bf9f25457e68382227a51f57b8ea46d3d633b",
+    "belege_lokaler_probelauf/protocol.json": "7dc7b52ece14653ca7bbe08d36723d5902458bfa5478c305d14f464e5814f4f6",
+    "belege_lokaler_probelauf/selection_lock.json": "36c94dcce0d47b598c1dba6afac1f6f1b2a877f437f28c3d0c33931d2ad70458",
+    "belege_lokaler_probelauf/summary.json": "d01fa717b77675d9563a3e2eb2d4a42416884a373d2cd5ee9f095981b09b95fb",
+    "belege_lokaler_probelauf/target_leakage_checks.json": "f56b65e9ffb99bc451e77a65946c745ef44f5488e63b4c3bdd6f402daef0a872",
+    "belege_lokaler_probelauf/target_metrics.json": "87854ed02852fc750e9efce19ef06f808bc6389c1aae454faf67b9692273609f",
+    "belege_lokaler_probelauf/test_rule_evidence.json": "ea43d68030673117255882210cce7d43ed0451c2b04088943b9502e8849870a6",
+    "belege_lokaler_probelauf/tests_pandas_2.txt": "3ec269cd04d6e24d050fd9d78a888c0ad6d7fcb8f330103f38c7d5499abad0ef",
+    "belege_lokaler_probelauf/tests_pandas_3.txt": "5430966e7be07fa6ddd3b495200b2bbd09f4fab67e7467860dc808386228c612",
+    "belege_lokaler_probelauf/verification.json": "a866b4c54953c2b36ccd9ace248020a750dc5a2de187d73e2f366aab6d2c0456",
+    "belege_lokaler_probelauf/wiederholungspruefung.txt": "321914aac5dfec30bd92220b2647b62922fba1e805929255ecc03ab2393a9aa8",
+    "comparison_core.py": "384e318c7573a495673a24decb7f4151c723ca9ec4efdc3473a6bb7e8de0d851",
+    "report_comparison.py": "8163a85db35101dd8e3e6f8d9313a97dbc75a8ae34e809d4d11960f8a0fabd86",
+    "run_rule_comparison.py": "2463816dcafb55100d6d21e62c68fcc1d793201e2c506ae21faab2e771587661",
+    "tests/test_comparison.py": "3f6972d53bc3901c37c854d0ddce913c2f1f6b0a73a43622e990a12d0a607422",
+    "verify_rule_comparison.py": "c1419ca61aedd0e650b19944c111a3b56b6e360d01476f578f736d049bb0c62e"
+  }
+}

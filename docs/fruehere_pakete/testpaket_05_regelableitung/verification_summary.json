@@ -1,0 +1,29 @@
+{
+  "reference_run": "beispiel_ergebnis",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0"
+  },
+  "targeted_tests": {
+    "count": 6,
+    "passed": 6,
+    "failed": 0
+  },
+  "reference_cli_exit_code": 0,
+  "checks": {
+    "reference_function_check_passed": true,
+    "all_json_valid": true,
+    "parquet_split_and_identity_verified": true,
+    "labels_kept_out_of_feature_files": true,
+    "all_recorded_artifact_hashes_verified": true,
+    "framework_sources_unchanged": true,
+    "html_structure_and_metric_text_verified": true
+  },
+  "limits": [
+    "No native Windows execution in this environment.",
+    "HTML structure and values checked; no browser rendering check.",
+    "Only the synthetic rule component is evaluated; no real DOP/ALKIS performance claim."
+  ]
+}

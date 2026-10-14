@@ -1,0 +1,72 @@
+{
+  "package": "testpaket_09_gemeinsame_pruefung",
+  "local_verification_date": "2026-09-23",
+  "scope": "Lokale Paketprüfung; kein Ergebnis eines neuen Windows-Laufs des Nutzers.",
+  "unit_tests_passed": 8,
+  "dop_run": {
+    "joint_check_verified": true,
+    "checks_passed": 2166,
+    "verified_artifact_count": 79,
+    "epochs": 25,
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "synthetic_control_evidence": [],
+    "scope": "Technische Konsistenz, keine Gütegarantie und keine Browserbedienungsprüfung"
+  },
+  "control_run": {
+    "joint_check_verified": true,
+    "checks_passed": 268,
+    "verified_artifact_count": 29,
+    "epochs": 3,
+    "seeds": [
+      42
+    ],
+    "synthetic_control_evidence": [
+      {
+        "seed": 42,
+        "reference_relations": [
+          {
+            "target": "tif_band_count",
+            "rules": 2,
+            "clean_cases": 4,
+            "clean_cases_flagged": 0,
+            "counterexamples_flagged": 4
+          },
+          {
+            "target": "kamera_sensor",
+            "rules": 2,
+            "clean_cases": 4,
+            "clean_cases_flagged": 0,
+            "counterexamples_flagged": 4
+          },
+          {
+            "target": "bodenpixelgroesse",
+            "rules": 2,
+            "clean_cases": 4,
+            "clean_cases_flagged": 0,
+            "counterexamples_flagged": 4
+          }
+        ],
+        "control_rejected": true
+      }
+    ],
+    "scope": "Technische Konsistenz, keine Gütegarantie und keine Browserbedienungsprüfung"
+  },
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "torch": "2.8.0+cpu",
+    "pyarrow": "23.0.1",
+    "hdbscan": "0.8.44",
+    "umap-learn": "0.5.12"
+  },
+  "source_input_and_project_code_unchanged": true,
+  "browser_interaction_tested": false,
+  "performance_advantage_required_for_passing": false,
+  "note": "HDBSCAN dient Trainingsstrata; UMAP wird im gemeinsamen Test nicht ausgeführt. Keine Installation neuer Projektdateien."
+}

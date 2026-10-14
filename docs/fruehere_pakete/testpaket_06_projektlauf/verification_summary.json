@@ -1,0 +1,44 @@
+{
+  "scenario": "synthetic_project_integration_v1",
+  "reference_run": {
+    "project_check_passed": true,
+    "rows": 320,
+    "epochs": 3,
+    "autoencoder_training_performed": true,
+    "checks_passed": 31,
+    "stages_executed": 11,
+    "expected_rejections_verified": 4,
+    "reference_relations_recovered": 3,
+    "eligible_ml_rule_count": 14,
+    "profiling_rule_count": 37,
+    "cluster_description_count": 4
+  },
+  "targeted_runner_tests": {
+    "passed": 4,
+    "failed": 0
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "torch": "2.8.0+cpu",
+    "hdbscan": "0.8.44",
+    "umap-learn": "0.5.12",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "python": "3.12.14",
+    "plotly": "7.1.0"
+  },
+  "verification": {
+    "source_unchanged": true,
+    "recorded_artifact_hashes_match": true,
+    "json_strictly_valid": true,
+    "html_structure_and_relative_links_valid": true
+  },
+  "limits": [
+    "Executed on Linux; native Windows execution is the next user run.",
+    "HTML data and saved revisions checked; no interactive browser automation.",
+    "Technical integration from Parquet, not real-delivery accuracy or raw-file adapters."
+  ],
+  "script_sha256": "e7e6d0f9c12acc5aefc5c65f280e54d7ae2fc4791e14826547e39573d3bd0c49"
+}

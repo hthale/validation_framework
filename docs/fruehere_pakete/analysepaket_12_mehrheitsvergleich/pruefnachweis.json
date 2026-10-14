@@ -1,0 +1,47 @@
+{
+  "unit_tests_per_version": 12,
+  "tested_pandas": [
+    "2.2.3",
+    "3.0.1"
+  ],
+  "full_run_checks": [
+    119,
+    119
+  ],
+  "cross_version_artifact_verification": true,
+  "paired_changes": 2082,
+  "paired_method_evaluations": 8328,
+  "negative_checks": [
+    {
+      "case": "incomplete",
+      "rejected_before_output": true,
+      "message": "Auswertung abgebrochen: Nur einen vollständig abgeschlossenen generischen Lauf verwenden."
+    },
+    {
+      "case": "wrong_experiment",
+      "rejected_before_output": true,
+      "message": "Auswertung abgebrochen: --run muss auf einen abgeschlossenen Vergleich aus Paket 11 zeigen."
+    },
+    {
+      "case": "tampered",
+      "rejected_before_output": true,
+      "message": "Auswertung abgebrochen: Ergebnisdatei passt nicht zum gespeicherten Manifest: all_candidates.json"
+    },
+    {
+      "case": "tampered_new_result",
+      "rejected": true
+    }
+  ],
+  "code_sha256": {
+    "PROTOKOLL.md": "b6f3f16de1e09b98ef3105cebb3082c69d5550a99ba9ad0ffa7d8464d1336539",
+    "baseline_core.py": "4ffd1ae72b6f59aaf6e270ac1b76a6ad3818d40912279ff05057978e0cb92b21",
+    "report_baseline.py": "fd6f61ea9dd0f46cb311e29aec32aed7fab95f45e8b3f48b05d80bd648808787",
+    "run_baseline_check.py": "dbec97de2970fa9427a07ea38fc2f93132c90287770bdb7996e4aa01c2089f92",
+    "tests/test_baseline.py": "673b6e05df35d4e3c4c5251aa07d70ca8b9105f5bf74f389c1d367707de0f5ef",
+    "verify_baseline_check.py": "a64275f1948d00d9f8a0d369290073d848175bd0038dd2b56602bf2d6929f169"
+  },
+  "windows_execution_tested": false,
+  "python_311_syntax_checked": true,
+  "full_run_source": "local_reproduction_not_uploaded_windows_run",
+  "real_error_detection_measured": false
+}
